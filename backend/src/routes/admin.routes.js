@@ -1,0 +1,17 @@
+const express = require("express");
+const adminController = require("../controllers/admin.controller");
+const { verifyToken, authorizeRoles } = require("../middlewares/authMiddleware");
+const router = express.Router();
+router.use(verifyToken, authorizeRoles("admin"));
+router.get("/appointments", adminController.listAllAppointments);
+router.patch("/appointments/:id/status", adminController.updateAppointmentStatus);
+router.delete("/appointments/:id", adminController.deleteAppointment);
+router.get("/users", adminController.listUsers);
+router.patch("/users/:id/role", adminController.updateUserRole);
+router.patch("/users/:id/active", adminController.updateUserActive);
+router.delete("/users/:id", adminController.deleteUser);
+router.get("/services", adminController.listServices);
+router.post("/services", adminController.createService);
+router.patch("/services/:id", adminController.updateService);
+router.delete("/services/:id", adminController.deleteService);
+module.exports = router;
