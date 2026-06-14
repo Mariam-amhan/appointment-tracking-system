@@ -1,57 +1,59 @@
-Appointment Tracking System
+# Appointment Tracking System
 
-A full-stack appointment and service tracking system developed using modern web technologies.
+A full-stack appointment and service tracking system built with Nuxt.js, Node.js, Express, MongoDB, and JWT Authentication.
 
-Features
+## Features
 
-* User Registration and Login
-* JWT Authentication
-* Appointment Management
-* Service Management
-* Admin Dashboard
-* User Dashboard
-* Secure API Endpoints
-* Responsive User Interface
+- User Registration & Login
+- JWT Authentication
+- Appointment Management
+- Service Management
+- Admin Dashboard
+- User Dashboard
+- Protected Routes
+- Responsive UI
 
-Technologies Used
+## Technologies Used
 
-Frontend
+### Frontend
+- Nuxt.js
+- Vue.js
+- TypeScript
 
-* Nuxt.js
-* Vue.js
-* JavaScript
-* CSS
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
 
-Backend
+## Installation
 
-* Node.js
-* Express.js
-* MongoDB
-* JWT Authentication
+### Backend
 
-Installation
-
-Backend
-
+```bash
 cd backend
 npm install
 npm start
+```
 
-Frontend
+### Frontend
 
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
-Environment Variables
+## Environment Variables
 
-Create a .env file in the backend directory and configure your environment variables.
+Create a `.env` file inside the backend folder and configure:
 
-Project Structure
+```env
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
+PORT=8080
+```
 
-backend/
-frontend/
-
-Author
+## Author
 
 Mariam Amhan
