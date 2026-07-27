@@ -4,7 +4,7 @@ A full-stack appointment and service tracking system built with Nuxt.js, Node.js
 
 ## Features
 
-- User Registration & Login
+- User Registration & Login 
 - JWT Authentication
 - Appointment Management
 - Service Management
@@ -56,4 +56,4 @@ PORT=8080
 
 ## Author
 
-Mariam Amhan
+Mariam Amhan 
