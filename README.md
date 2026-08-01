@@ -26,6 +26,14 @@ A full-stack appointment and service tracking system built with Nuxt.js, Node.js
 - MongoDB
 - JWT Authentication
 
+## Project Structure
+
+```text
+appointment-tracking-system
+├── frontend
+└── backend
+```
+
 ## Installation
 
 ### Backend
