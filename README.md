@@ -13,6 +13,22 @@ A full-stack appointment and service tracking system built with Nuxt.js, Node.js
 - Protected Routes
 - Responsive UI
 
+## Screenshots
+
+### Home
+![Home](screenshots/home.png)
+![Home](screenshots/home2.png)
+
+### Services
+![Services](screenshots/services.png)
+
+### Login
+![Login](screenshots/login.png)
+
+### My Appointments
+![My Appointments](screenshots/appointments.png)
+
+
 ## Technologies Used
 
 ### Frontend
